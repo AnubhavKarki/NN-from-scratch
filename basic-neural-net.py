@@ -1,4 +1,4 @@
-# Writing Neural Network from scratch
+# Writing Neural Network from scratch (no activation functions)
 
 import numpy as np
 
@@ -47,6 +47,7 @@ def train_network(x, y, w1_init, w2_init, alpha=0.01, epochs=10):
     
     return w1, w2, loss
 
+# Main Function:
 if __name__ == "__main__":
     x = 2.0
     y = 20.0
