@@ -8,7 +8,7 @@ def sigmoid(x):
 
 # Sigmoid Derivative:
 def sigmoid_derivative(x):
-    return sigmoid(x) * (1 - sigmoid(x))
+    return x * (1 - x)
 
 # Foward Pass:
 def forward_pass(x1, x2, w1, w2, w3):
@@ -74,7 +74,7 @@ if __name__ == "__main__":
     w2_init = -0.30
     w3_init = 0.50
     alpha = 0.01
-    epochs = 100
+    epochs = 1000
     
     w1, w2, w3, loss = train_network(x1, x2, y, w1_init, w2_init, w3_init, alpha, epochs)
     
