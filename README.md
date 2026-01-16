@@ -95,6 +95,5 @@ python complex_net.py
 - NumPy (`pip install numpy`)
 
 Pure NumPy. No PyTorch/TensorFlow/JAX.
-```
 
 ## License - MIT
